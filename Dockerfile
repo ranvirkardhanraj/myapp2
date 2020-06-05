@@ -1,3 +1,4 @@
-FROM httpd
-RUN apt-get install ping
-ENTRYPOINT ["ping","localhost:80"]
+FROM centos
+
+ENTRYPOINT ["ping","google.com"]
+ 
